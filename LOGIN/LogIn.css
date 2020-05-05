@@ -35,7 +35,7 @@ body
   width: 280px;
   border-color: #eeaeee;
 }
-.box input[type="submit"]
+.box input[type="button"]
 {
   background: none;
   display: absolute;
@@ -49,7 +49,7 @@ body
   transition: 0.25s;
   cursor: pointer;
 }
-.box input[type="submit"]:hover
+.box input[type="button"]:hover
 {
   background: #dbf9db;
 }
