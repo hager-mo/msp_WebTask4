@@ -1,0 +1,104 @@
+body
+{
+  background-image: url(background3.jpg);
+
+}
+header
+{
+    background-color: #222831;
+    background-image: linear-gradient(to left, #37414f, #222831);
+    padding: 7.5rem 0;
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+h1
+{
+  margin: 10px;
+  font-weight: 200;
+  font-size: 4.5rem;
+  text-align: center;
+  display: inline-block;
+  color: #000;
+  background: linear-gradient(to right, #00adb5, #fd3f4f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+form
+{
+  background-color:  gray;
+  opacity: 0.85;
+  width: 80%;
+  margin-left: 90px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+}
+div
+{
+  margin: 30px;
+  padding: 20px 80px;
+  background-color: white;
+  opacity: 0.75;
+}
+div label
+{
+  font-size: 20px;
+  font-family: cursive;
+}
+div label[for=radiobutton]
+{
+  padding: 40px;
+  font-family: cursive;
+}
+input[type="radio"]
+{
+  height: 21px;
+  margin: 20px;
+  background: #000;
+}
+textarea
+{
+  width: 94.5%;
+  margin-left: 29px;
+  border-radius: 30px;
+}
+input[type="button"]
+{
+  background: none;
+  display: absolute;
+  margin: 20px;
+  text-align: center;
+  border: 2px solid #F67280 ;
+  padding: 15px 10px;
+  width: 200px;
+  color: #eb2b50;
+  background-color: #fff;
+  margin-left: 450px;
+  border-radius: 30px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+button:hover ,input[type="button"]
+{
+  background: #dbf9db;
+}
+button
+{
+  background: none;
+  display: absolute;
+  margin: 20px;
+  text-align: center;
+  border: 2px solid #F67280 ;
+  padding: 15px 10px;
+  width: 200px;
+  color: #eb2b50;
+  background-color: #fff;
+  margin-left: 300px;
+  border-radius: 30px;
+  transition: 0.25s;
+  cursor: pointer;
+}

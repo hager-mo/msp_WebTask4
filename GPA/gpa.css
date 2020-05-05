@@ -1,0 +1,85 @@
+*
+{
+  padding : 10;
+  margin: 10;
+}
+body
+{
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+/*GPA CALCULATOR -----------------------------------------------------------------------------------------------*/
+h1
+{
+  font-style: oblique;
+  font-family: cursive;
+  font-variant-ligatures: normal;
+  padding-left: 30px;
+}
+.box
+{
+  width: 370px;
+  padding: 40px;
+  position: absolute;
+  top: 3%;
+  left: 35%;
+  background: #ff9e9d;
+  opacity: 0.85;
+  border-radius: 20px;
+  text-align: center;
+}
+.box input[type="text"]
+{
+  background: none;
+  display: block;
+  margin: 10px auto;
+  text-align: center;
+  border: 2px solid #F67280 ;
+  padding: 10px 10px;
+  width: 80px;
+  color: #eb2b50;
+  border-radius: 20px;
+  transition: 0.25s;
+}
+.box input[type="text"]:focus
+{
+  width: 100px;
+  border-color: #eeaeee;
+}
+.box input[type="BUTTON"]
+{
+  background: none;
+  display: absolute;
+  margin: 10px;
+  text-align: center;
+  border: 2px solid #F67280 ;
+  padding: 10px 10px;
+  width: 100px;
+  color: #eb2b50;
+  border-radius: 30px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.box input[type="BUTTON"]:hover , .box input[type="SUBMIT"]:hover
+{
+  background: #dbf9db;
+}
+.box input[type="SUBMIT"]
+{
+  background: none;
+  display: absolute;
+  position: absolute;
+  bottom:0%;
+  right:20%;
+  margin: 10px;
+  text-align: center;
+  border: 2px solid #F67280 ;
+  padding: 10px 10px;
+  width: 80px;
+  color: #eb2b50;
+  border-radius: 20px;
+  transition: 0.25s;
+  cursor: pointer;
+}
